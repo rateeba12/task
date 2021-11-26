@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dom</title>
+</head>
+
+<form >
+<body>
+	<div class="todo">
+		
+		</div>
+		<label>to do </label>
+<input type="to" id="btt">
+
+
+	</div>
+	<button id="btn" value="send">save</button></form>
+<div id="li" class="list">
+	<script>
+		let btnEl = document.getElementById('btn');
+
+function handleForm(event) { event.preventDefault(); } 
+btn.addEventListener('click', handleForm);
+
+		btn.addEventListener ('click', (e)=>{
+  var t = document.getElementById("btt").value;
+  document.getElementById("li").innerHTML = t;
+		});
+		
+
+</script>
+
+
+</div>
+</body>
+</html>
